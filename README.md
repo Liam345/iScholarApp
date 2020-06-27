@@ -1,81 +1,15 @@
-## Project Title and Description
-iScholar is an independent project which enables Teachers to create and rate assignments and Students to submit and share comments/questions to them.
-App is available at: https://ischolars.netlify.app/
+## [iScholar](https://ischolars.netlify.app/)
 
-## Motivation
-Considering the Covid-19 crises and the lack of easy and free tools for teachers and students to communicate to each other, an intercontinental team decided to build a fully functional MVP in a timebox of 6 weeks.
-April - May 2020
-## People
-Yuto: UI Developer from Japan
+## What is it?
+A web app that enables teachers to create and rate assignments and also allows students to submit, comment and pose questions on the assignments.
 
-Joanne: Full Stack Developer from USA
+## What is special about this project?
 
-Liam: Back-end Developer from Australia
+This was my team project through [Chingu](https://www.chingu.io/). I was the main backend developer for the team. My main responsibility were Schema design, designing and writing API's and also deploying the backend. 
 
-Chucks: Back-end Developer from Nigeria
+## What does this repo contain?
+Our team created a fullstack web app written in MongoDB, React and NodeJS.
+For original commits, PR and team communication visit this [repo](https://github.com/chingu-voyages/v18-bears-team-04).
 
-Giuseppe: Scrum Product Owner from Italy
-
-## Release History
-Sprint 1: Brainstorming Ideas, Market Research
-
-Sprint 2: Front-end and Back-end Design
-
-Sprint 3: Homepage, Registration, Student and Teacher Dashboards, Setting up User and Class API
-
-Sprint 4: Setting up Assignment API and Student and Teachers Assignments
-
-Sprint 5: Notification API, additional adjustments and small features
-
-Sprint 6: Testing and Deployment
-
-## Screenshots
-
--
-
-## Built with
-
-NodeJs
-
-Express
-
-React
-
-MongoDB
-
-### Teacher side:
-Create a Class
-
-Edit Class
-
-Create Assignments
-
-View Assignments and Grade (with feedback)
-
-### Student side:
-Check Assignment List 
-
-Submit Assignment
-
-Get graded and feedback from the teacher
-
-Track their Class Evaluation
-
-## How to use?
-iScholar has been built with the mission to make the life of students / teachers extremely easy when they have to communicate with each other.
-Required steps:
-Registration: username and email ID
-Create Assignment (teacher) / Submit Assignment (student)
-Grade the Assignment (teacher) / Get Assignment with Feedback (student)
-and so on...
- 
- 
-## Contribute
-Feel free to contribute with your coding skills to our iScholar project.
-You are more than welcome!
-
-## Credits
-To everyone has given a small or big contribute to it
-
-## License
-opensoftware
+## Want to contribute?
+I'd gladly look over any PR's, if you'd like to contribute and improve the site.
