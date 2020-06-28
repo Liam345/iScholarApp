@@ -10,7 +10,7 @@ import fileUpload from "express-fileupload";
 const app = express();
 
 //ENVIRONMENT VARIABLES GO HERE
-const NODE_ENV = process.env.NODE_ENV;
+const {NODE_ENV, DEV_URL, PROD_URL} = process.env;
 
 // BEAUTIFIES REQUEST AND RESPONSE BODIES
 if (NODE_ENV === "development" || NODE_ENV === "test:withLogs") {
@@ -29,12 +29,13 @@ app.use(
 	})
 );
 
+console.log(NODE_ENV);
 app.use(
 	cors({
 		origin:
 			NODE_ENV === "development"
-				? "http://localhost:3000"
-				: "https://ischolars.netlify.app",
+				? DEV_URL
+				: PROD_URL
 	})
 );
 
