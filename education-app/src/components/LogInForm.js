@@ -21,8 +21,9 @@ const LogInForm = (props) => {
       .then((res) => {
         TokenService.saveAuthToken(res._id);
         props.handleLogIn(res);
-        if (res.classIds.length === 1) {
-          TokenService.saveClassToken(res.classIds);
+        //We are currently only saving One Class Per Student
+        if (res.classIds.length >= 1) {
+          TokenService.saveClassToken(res.classIds[0]);
         }
       })
       .catch((err) => setError({ error: err }));
