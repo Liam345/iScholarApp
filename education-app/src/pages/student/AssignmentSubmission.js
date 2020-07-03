@@ -148,7 +148,7 @@ const AssignmentSubmission = (props) => {
 		fileUrl !== null
 			? fileUrl.map((a, index) => {
 					return (
-						<a key={index} className='download-btn' href={a} download>
+						<a key={index} className='download-btn' href={a}  target="_blank" rel="noopener noreferrer" download>
 							Download File {index + 1}
 						</a>
 					);
