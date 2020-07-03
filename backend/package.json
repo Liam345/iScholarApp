@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon -r dotenv/config -r esm ./src/bin/www",
-    "start": "cross-env NODE_ENV=development node -r dotenv/config -r esm ./src/bin/www"
+    "start": "cross-env NODE_ENV=development node -r dotenv/config -r esm ./src/bin/www",
+    "test": "jest --watch"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.0.1",
@@ -25,6 +26,8 @@
     "express-fileupload": "^1.1.7-alpha.3"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
     "nodemon": "^2.0.3"
   }
 }

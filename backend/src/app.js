@@ -29,7 +29,7 @@ app.use(
 	})
 );
 
-console.log(NODE_ENV);
+
 app.use(
 	cors({
 		origin:
